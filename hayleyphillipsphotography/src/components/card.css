@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: #b5cdd7;
+}
+
+.card {
+    margin: 1.2em;
+    max-width: 650;
+    padding: 1em;
+    box-shadow: .5em -.5em .5em #b5cdd7;
+    border: 0.01em solid #d4d4d4;
+}
