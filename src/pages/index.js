@@ -26,8 +26,8 @@ const IndexPage = () => (
       </Card>
     </div>
     <Social>
-      <a>&#xe0b8; Instagram</a>
-      <a>&#xe0a5; Facebook</a>
+      <a href="https://www.instagram.com/hayleyphillipsphotography/">&#xe0b8; Instagram</a>
+      <a href="https://www.facebook.com/hayleyphillipsphotography/">&#xe0a5; Facebook</a>
     </Social>
   </Layout>
 )
