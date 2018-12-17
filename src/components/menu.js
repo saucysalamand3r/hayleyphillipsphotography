@@ -2,13 +2,14 @@ import React from "react"
 import './card.css'
 
 const Menu =()=> (
-  <div class="card">
+  <section class="card menu">
     <ul>
-        <li>Home</li>
-        <li>Page 2</li>
-        <li>404</li>
+        <li><a>Portfolio</a></li>
+        <li><a>Packages</a></li>
+        <li><a>Get To Know Me</a></li>
+        <li><a>Contact</a></li>
     </ul>
-  </div>
+  </section>
 )
 
 export default Menu

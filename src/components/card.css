@@ -1,12 +1,36 @@
+@font-face {
+    font-family: Iconic;
+    src: url(../images/iconmonstr-iconic-font.ttf);
+  }
+
 a {
-    text-decoration: none;
-    color: #b5cdd7;
+    text-decoration: underline wavy #b5cdd7;
+    color: black;
+    
 }
 
 .card {
     margin: 1.2em;
-    max-width: 650;
+    max-width: 80%;
     padding: 1em;
     box-shadow: .5em -.5em .5em #b5cdd7;
-    border: 0.01em solid #d4d4d4;
+    border: 0.01em solid #b5cdd7;
+}
+
+.menu {
+    min-width: 20ch;
+}
+
+.social {
+    min-width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.social a {
+    font-family: 'Iconic';
+    min-width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #b5cdd7;
 }
