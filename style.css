@@ -172,6 +172,10 @@ h1 {
 }
 
 @media only screen and (max-width: 1081px){
+    * {
+      font-size: 1.2em;
+    }
+
     .img {
         display: flex;
         flex-direction: column;
