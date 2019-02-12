@@ -147,7 +147,7 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-@media only screen and (min-width: 1080px){
+@media only screen and (orientation: landscape){
     .img {
         display: flex;
         flex-direction: row;
@@ -171,7 +171,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 1081px){
+@media only screen and (orientation: portrait){
     * {
       font-size: 1.2em;
     }
@@ -201,7 +201,7 @@ h1 {
     }
 
     #menuToggle {
-        margin-bottom: 1.5em;
+        font-size: 1.2em;
     }
 
     .social {
